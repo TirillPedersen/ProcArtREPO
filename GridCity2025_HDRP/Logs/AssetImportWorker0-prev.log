@@ -1,0 +1,1967 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\tiril\Unity\Unity 2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/tiril/Downloads/GridCity2025_HDRP/GridCity2025_HDRP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54852
+Successfully changed project path to: D:/tiril/Downloads/GridCity2025_HDRP/GridCity2025_HDRP
+D:/tiril/Downloads/GridCity2025_HDRP/GridCity2025_HDRP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12332] Host "[IP] 192.168.1.201 [Port] 0 [Flags] 2 [Guid] 4042493328 [EditorId] 4042493328 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3PLPQ78P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12332] Host "[IP] 192.168.1.201 [Port] 0 [Flags] 2 [Guid] 4042493328 [EditorId] 4042493328 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3PLPQ78P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 104.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path D:/tiril/Unity/Unity 2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/tiril/Downloads/GridCity2025_HDRP/GridCity2025_HDRP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'D:/tiril/Unity/Unity 2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'D:/tiril/Unity/Unity 2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/tiril/Unity/Unity 2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/tiril/Unity/Unity 2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005178 seconds.
+- Loaded All Assemblies, in  0.713 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.389 seconds
+Domain Reload Profiling: 1101ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (186ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (364ms)
+			TypeCache.Refresh (362ms)
+				TypeCache.ScanAssembly (336ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (389ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.925 seconds
+Refreshing native plugins compatible for Editor in 10.03 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.466 seconds
+Domain Reload Profiling: 2391ms
+	BeginReloadAssembly (289ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (509ms)
+		LoadAssemblies (434ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (185ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1468ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1121ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (445ms)
+			ProcessInitializeOnLoadMethodAttributes (585ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 5.05 seconds
+Refreshing native plugins compatible for Editor in 114.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4008 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (3.6 MB). Loaded Objects now: 4460.
+Memory consumption went from 238.7 MB to 235.1 MB.
+Total: 97.503300 ms (FindLiveObjects: 17.527700 ms CreateObjectMapping: 65.590800 ms MarkObjects: 10.489000 ms  DeleteObjects: 3.892700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 137810.539616 seconds.
+  path: Assets/Scripts/ExampleGrammars/SimpleBuilding
+  artifactKey: Guid(3d69c3ac05ed208439d4c0ed856b6c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ExampleGrammars/SimpleBuilding using Guid(3d69c3ac05ed208439d4c0ed856b6c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976b1e2c8a4c5bd42144747043776de7') in 0.007921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scripts/ExampleGrammars/SimpleBuilding/SimpleBuilding.cs
+  artifactKey: Guid(6f1ee5bf00f6689448756671194e04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ExampleGrammars/SimpleBuilding/SimpleBuilding.cs using Guid(6f1ee5bf00f6689448756671194e04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73618eeb981fa99f62ca99b5947d5c45') in 0.001138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 195.831909 seconds.
+  path: Assets/Scripts/ExampleGrammars/SimpleBuilding/SimpleBuilding.cs
+  artifactKey: Guid(6f1ee5bf00f6689448756671194e04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ExampleGrammars/SimpleBuilding/SimpleBuilding.cs using Guid(6f1ee5bf00f6689448756671194e04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8510b313a9fce3ba94273dfefd60281') in 0.000568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.725 seconds
+Refreshing native plugins compatible for Editor in 12.66 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.911 seconds
+Domain Reload Profiling: 2635ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (60ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1911ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (401ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (65ms)
+Refreshing native plugins compatible for Editor in 10.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3673 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (3.6 MB). Loaded Objects now: 4470.
+Memory consumption went from 199.7 MB to 196.2 MB.
+Total: 4.484200 ms (FindLiveObjects: 0.307800 ms CreateObjectMapping: 0.429600 ms MarkObjects: 2.504200 ms  DeleteObjects: 1.241900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.545 seconds
+Refreshing native plugins compatible for Editor in 7.60 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.471 seconds
+Domain Reload Profiling: 2015ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1472ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (459ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (85ms)
+Refreshing native plugins compatible for Editor in 9.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (3.6 MB). Loaded Objects now: 4473.
+Memory consumption went from 200.2 MB to 196.7 MB.
+Total: 11.411600 ms (FindLiveObjects: 0.823100 ms CreateObjectMapping: 1.222400 ms MarkObjects: 7.967400 ms  DeleteObjects: 1.396100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62.953881 seconds.
+  path: Assets/Prefabs/ProceduralSimpleBuilding.prefab
+  artifactKey: Guid(fee6c2ac503a81e4cb074a72365b79d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ProceduralSimpleBuilding.prefab using Guid(fee6c2ac503a81e4cb074a72365b79d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232ac89fb0428bf8ba897f115f787041') in 0.157450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 175
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.864 seconds
+Refreshing native plugins compatible for Editor in 7.65 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.383 seconds
+Domain Reload Profiling: 3248ms
+	BeginReloadAssembly (490ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (572ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2384ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (864ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (672ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (84ms)
+Refreshing native plugins compatible for Editor in 6.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (3.6 MB). Loaded Objects now: 4477.
+Memory consumption went from 202.2 MB to 198.7 MB.
+Total: 4.694400 ms (FindLiveObjects: 0.344500 ms CreateObjectMapping: 0.393200 ms MarkObjects: 3.065600 ms  DeleteObjects: 0.890300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 511473.183571 seconds.
+  path: Assets/Prefabs/BuildingBlocks/GreenRoof.prefab
+  artifactKey: Guid(ee7ae2596ddf3924da8d647fe05fb617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BuildingBlocks/GreenRoof.prefab using Guid(ee7ae2596ddf3924da8d647fe05fb617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 1.36 seconds
+ -> (artifact id: '031e913cd25f9113474945734461749d') in 29.248545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 93
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Prefabs/BuildingBlocks
+  artifactKey: Guid(ab875e9b0252dee47a36d1d258fc1b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BuildingBlocks using Guid(ab875e9b0252dee47a36d1d258fc1b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a805140ecdfecf8a7e9f215e2c7994e') in 0.002931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Prefabs/BuildingBlocks/Stock1.prefab
+  artifactKey: Guid(4e431be3aef108b47a70fc5e9e63d133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BuildingBlocks/Stock1.prefab using Guid(4e431be3aef108b47a70fc5e9e63d133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6115747e0e15ce21317ee77af7add3ea') in 1.058223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 126.447728 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stairsStoneRound.obj
+  artifactKey: Guid(287769bb407a7b9448f6ff1a9da7793b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stairsStoneRound.obj using Guid(287769bb407a7b9448f6ff1a9da7793b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed0e2e8a493c144271e137a47e0c585') in 1.085688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stairsWoodHandrail.obj
+  artifactKey: Guid(a018c38f5e6780e478a4aac30ff7d98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stairsWoodHandrail.obj using Guid(a018c38f5e6780e478a4aac30ff7d98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92117b564895e32c1487878374e7c1bc') in 0.056139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/tree.obj
+  artifactKey: Guid(50c8c740023493e48a752bf6beed6688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/tree.obj using Guid(50c8c740023493e48a752bf6beed6688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9b41bdb1f285b6b0357b751273de6d') in 0.322954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallCurved.obj
+  artifactKey: Guid(42ffbd0de5db21d46bdc6b6f0a26983c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallCurved.obj using Guid(42ffbd0de5db21d46bdc6b6f0a26983c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4760832d6a6e77e3f963461cfafea9d6') in 0.156133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wall.obj
+  artifactKey: Guid(c3e5d0244c82fb945989f037b7d6f9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wall.obj using Guid(c3e5d0244c82fb945989f037b7d6f9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273e88de9f04088aad4039bee0b792bd') in 0.102918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallArch.obj
+  artifactKey: Guid(6cd40fa2d99f21f45a2e0b2072ff9b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallArch.obj using Guid(6cd40fa2d99f21f45a2e0b2072ff9b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6e0703a309b3916ae04d36d9ab9c1f') in 0.089556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stallRed.obj
+  artifactKey: Guid(1faa149efe2758e479e5280b580f413d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stallRed.obj using Guid(1faa149efe2758e479e5280b580f413d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0279694ff674aa90c2ca33f0a9eba7') in 0.075811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallDetailHorizontal.obj
+  artifactKey: Guid(84e5114d12c20464080b24e94f6faf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallDetailHorizontal.obj using Guid(84e5114d12c20464080b24e94f6faf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5cae328563869083780a7466fe887d') in 0.081811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.001402 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/treeCrooked.obj
+  artifactKey: Guid(47b0971bbacfce04c8b7d6b7997e82bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/treeCrooked.obj using Guid(47b0971bbacfce04c8b7d6b7997e82bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfaa09dfb2f4556079cde0669925f8a') in 0.094871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stairsWood.obj
+  artifactKey: Guid(8295849f77d080142a2e182383c02b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stairsWood.obj using Guid(8295849f77d080142a2e182383c02b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a472d47cd5827e5dd3fd82cca9a428c') in 0.088704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallDiagonal.obj
+  artifactKey: Guid(07f62526abf67af4781ddcc39bfcbb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallDiagonal.obj using Guid(07f62526abf67af4781ddcc39bfcbb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53eb07494e35c74a33170356cae99d1') in 0.085118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stall.obj
+  artifactKey: Guid(ae38115aaf5c2ea4793135304a20e914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stall.obj using Guid(ae38115aaf5c2ea4793135304a20e914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281670a864227603cd37d0437d760b60') in 0.102417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallBlock.obj
+  artifactKey: Guid(07320f43aa78db04883b2055ead1d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallBlock.obj using Guid(07320f43aa78db04883b2055ead1d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be1c487c24e7421ad83ef469cd4d1fc') in 0.106720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/treeHigh.obj
+  artifactKey: Guid(e3811f7cf8b55ef4e82e6a67634ad474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/treeHigh.obj using Guid(e3811f7cf8b55ef4e82e6a67634ad474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ca5adeda9b06e441373053f99f5e52') in 0.104916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stallBench.obj
+  artifactKey: Guid(d4b21035f4ac0f041ad9852eeb2231a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stallBench.obj using Guid(d4b21035f4ac0f041ad9852eeb2231a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4356f372e6d4838d19ae5ebdec951f9f') in 0.075402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallDoorwayRound.obj
+  artifactKey: Guid(878d7f23d69aa4545a723f41f6d5707e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallDoorwayRound.obj using Guid(878d7f23d69aa4545a723f41f6d5707e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3764d0934ff715d5da0ef18055e164e') in 0.099671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stallStool.obj
+  artifactKey: Guid(318aa0cef2d139244be376b5057d15f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stallStool.obj using Guid(318aa0cef2d139244be376b5057d15f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18351fdeba66702ea755b1f93c43468') in 0.113944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallCornerDetail.obj
+  artifactKey: Guid(135d14e2d740b0643997adc6e56993c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallCornerDetail.obj using Guid(135d14e2d740b0643997adc6e56993c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720b5df810695850e16f15f16f82ab52') in 0.212007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallCornerDiagonalHalf.obj
+  artifactKey: Guid(6d38c4808b85f714fa0077ca0d13e6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallCornerDiagonalHalf.obj using Guid(6d38c4808b85f714fa0077ca0d13e6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8908b952040dedf563f572d6d8824bd1') in 0.065115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/treeHighRound.obj
+  artifactKey: Guid(ea807426109dd6a41b1754ba11d95ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/treeHighRound.obj using Guid(ea807426109dd6a41b1754ba11d95ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7bba864d3d9a98f66149eef562b765') in 0.037166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallDetailDiagonal.obj
+  artifactKey: Guid(74f53374937e42a4daad3c48cf4054b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallDetailDiagonal.obj using Guid(74f53374937e42a4daad3c48cf4054b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b249218578cea572ebb02f07c9a5e1') in 0.040526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallDoor.obj
+  artifactKey: Guid(e6599e1602810b44597e9f15a6f5a319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallDoor.obj using Guid(e6599e1602810b44597e9f15a6f5a319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddbe1c910870b0a59c48381cf50c03c') in 0.051819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/treeHighCrooked.obj
+  artifactKey: Guid(1514326a295d97242a48237e04d41778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/treeHighCrooked.obj using Guid(1514326a295d97242a48237e04d41778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d4e15f19d2db28e2a65d96302290d7') in 0.031789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallBlockHalf.obj
+  artifactKey: Guid(49baf8baac190724292d1625ee06dba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallBlockHalf.obj using Guid(49baf8baac190724292d1625ee06dba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec5353473f1d25723b32b26a580f2d9') in 0.040305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallBroken.obj
+  artifactKey: Guid(fc3355e5d9abb3142a9685957e940eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallBroken.obj using Guid(fc3355e5d9abb3142a9685957e940eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d944e7f1b942c931f5d0e9faba0f46') in 0.062773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallCornerEdge.obj
+  artifactKey: Guid(d63d22934df185649a297fd9c49570c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallCornerEdge.obj using Guid(d63d22934df185649a297fd9c49570c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453b05f34020fa54cdf113d9cdfcac85') in 0.056831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallArchTop.obj
+  artifactKey: Guid(a5625673d5964aa49952831e9142ba4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallArchTop.obj using Guid(a5625673d5964aa49952831e9142ba4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137d63037aba398d7b4286f13dee4a49') in 0.054252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 639.881196 seconds.
+  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(d178c53bc945d084eb1f0ab422f7be7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(d178c53bc945d084eb1f0ab422f7be7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1bbab27697cadeecc7741d74c62ca073') in 0.671472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stairsStoneRound.obj
+  artifactKey: Guid(287769bb407a7b9448f6ff1a9da7793b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stairsStoneRound.obj using Guid(287769bb407a7b9448f6ff1a9da7793b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5971b94a326b50bc5bd3c510c52b80dd') in 0.275341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stairsWood.obj
+  artifactKey: Guid(8295849f77d080142a2e182383c02b20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stairsWood.obj using Guid(8295849f77d080142a2e182383c02b20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93e2d541c369cca82f5eb42acb375de6') in 0.045294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/fountainCornerInner.obj
+  artifactKey: Guid(b55b44023a74b16468ef2bb4812c51be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/fountainCornerInner.obj using Guid(b55b44023a74b16468ef2bb4812c51be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ff1bba9bbb790f0e4973b51a803ad1f7') in 0.073943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/roofHighCornerInner.obj
+  artifactKey: Guid(8c32302bd96e3ee418d0a09cc70d6a59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/roofHighCornerInner.obj using Guid(8c32302bd96e3ee418d0a09cc70d6a59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bdd99112bee405dec238be9f03f31c1') in 0.047638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stallStool.obj
+  artifactKey: Guid(318aa0cef2d139244be376b5057d15f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stallStool.obj using Guid(318aa0cef2d139244be376b5057d15f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '83b9e2563232af63f4e72cab41d801e6') in 0.032565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallArchTop.obj
+  artifactKey: Guid(a5625673d5964aa49952831e9142ba4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallArchTop.obj using Guid(a5625673d5964aa49952831e9142ba4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'edd20a6c20d5a9cbac7723ff51cd9eb2') in 0.026487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Substances/ProcArt-Brick-Wall-WoD-MMO.sbsar
+  artifactKey: Guid(4805d84e5eef5204584f2b8c0e6986b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Substances/ProcArt-Brick-Wall-WoD-MMO.sbsar using Guid(4805d84e5eef5204584f2b8c0e6986b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0f791cde5404b53c52ccc478f37158c') in 0.192470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallCurved.obj
+  artifactKey: Guid(42ffbd0de5db21d46bdc6b6f0a26983c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallCurved.obj using Guid(42ffbd0de5db21d46bdc6b6f0a26983c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e863b1b892bb7b9ea5f74bbf0fea3797') in 0.043010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/polesHorizontal.obj
+  artifactKey: Guid(80689a225ac55a4488a9549473c6dbce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/polesHorizontal.obj using Guid(80689a225ac55a4488a9549473c6dbce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b21342304a22a43ed8809aac81af661b') in 0.036370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallBroken.obj
+  artifactKey: Guid(fc3355e5d9abb3142a9685957e940eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallBroken.obj using Guid(fc3355e5d9abb3142a9685957e940eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53d81d0840365276d32f7081abce91a2') in 0.039757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/fountainCornerInnerSquare.obj
+  artifactKey: Guid(7d2b409e10641404e81cd144eccf3757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/fountainCornerInnerSquare.obj using Guid(7d2b409e10641404e81cd144eccf3757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '751549438e97bf1dcc88989aeb98efc6') in 0.054625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallDetailCross.obj
+  artifactKey: Guid(8c13c6d5ccba6a64c8368e092e275061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallDetailCross.obj using Guid(8c13c6d5ccba6a64c8368e092e275061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c938979db6805ab8b3f35b95febe042') in 0.030014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/bannerRed.obj
+  artifactKey: Guid(77410c5f8f420b147844483caa4d7318) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/bannerRed.obj using Guid(77410c5f8f420b147844483caa4d7318) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ed0d54c4bd480e0d13e4995fefccb38') in 0.072236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/roofPoint.obj
+  artifactKey: Guid(d47dbadf5ffe0474eb6be594ce5e3849) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/roofPoint.obj using Guid(d47dbadf5ffe0474eb6be594ce5e3849) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '469d4f313f18f4dc939a2bcb1dcb52ec') in 0.052335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/cartHigh.obj
+  artifactKey: Guid(ed659c44a18760a4ca22280b8493cd56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/cartHigh.obj using Guid(ed659c44a18760a4ca22280b8493cd56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '363cf3615dab3c506e5162b1df3e2597') in 0.163145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/fenceGate.obj
+  artifactKey: Guid(852b1ccc619a5ec4c8be17e69311c2d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/fenceGate.obj using Guid(852b1ccc619a5ec4c8be17e69311c2d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b30d39b079d0044b3e46f114ce5cd683') in 0.044830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallDiagonal.obj
+  artifactKey: Guid(07f62526abf67af4781ddcc39bfcbb87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallDiagonal.obj using Guid(07f62526abf67af4781ddcc39bfcbb87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86fc4bb4921b8851520ae6d17273f0f9') in 0.069317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/poles.obj
+  artifactKey: Guid(cfd4a78932b88c943add6748837f73ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/poles.obj using Guid(cfd4a78932b88c943add6748837f73ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '302e54ae15887b87ee0424b85894754a') in 0.052130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/fountainCurved.obj
+  artifactKey: Guid(f3cf99f05a153414cb64f4718fdc4a88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/fountainCurved.obj using Guid(f3cf99f05a153414cb64f4718fdc4a88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bde9dc5f14ebcdece1d2700a3cc0b198') in 0.057394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/roofRight.obj
+  artifactKey: Guid(b4349820d4c2fd44db425096bba205ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/roofRight.obj using Guid(b4349820d4c2fd44db425096bba205ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6dc800e8ff698687a9c686208a49ad62') in 0.096828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Adobe/Substance3DForUnity/README.md
+  artifactKey: Guid(ba21aa6d1b045f34880bbb76e0d09f4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/README.md using Guid(ba21aa6d1b045f34880bbb76e0d09f4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '211f9e512e5aaaa3a8d15b229176f8d6') in 0.101928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/overhang.obj
+  artifactKey: Guid(b5bd1a841d834974caaefab3c9fdfaeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/overhang.obj using Guid(b5bd1a841d834974caaefab3c9fdfaeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e85bbb938ebcc722f30e13b7eb03423') in 0.045790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stallGreen.obj
+  artifactKey: Guid(476ee633d5540da4a9ed5ac3c58e4f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stallGreen.obj using Guid(476ee633d5540da4a9ed5ac3c58e4f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd476ec673d7724fc49de95cbe9c2f242') in 0.380166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodDetailDiagonal.obj
+  artifactKey: Guid(1259a2e0f45b3e440b60c86ec6900b42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodDetailDiagonal.obj using Guid(1259a2e0f45b3e440b60c86ec6900b42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e324cf91e44109f96a89debca10488f') in 0.051444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/blade.obj
+  artifactKey: Guid(9258b03d66e819f4aa333208f9947b00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/blade.obj using Guid(9258b03d66e819f4aa333208f9947b00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ad9e5366c609a482df2ed4df7c6cea8') in 0.048550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodDoor.obj
+  artifactKey: Guid(216a5fbbaa1a14f48a699f4270cd1194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodDoor.obj using Guid(216a5fbbaa1a14f48a699f4270cd1194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e8bed263de00e91f27a5f13eec3b669') in 0.069932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stairsWoodHandrail.obj
+  artifactKey: Guid(a018c38f5e6780e478a4aac30ff7d98c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stairsWoodHandrail.obj using Guid(a018c38f5e6780e478a4aac30ff7d98c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '104b3779786b8d21e92b0f02687a9903') in 0.084340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Adobe/Substance3DForUnity/HOWTO.pdf
+  artifactKey: Guid(e0f930851449b394589732892defff13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/HOWTO.pdf using Guid(e0f930851449b394589732892defff13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8c277365b9d06e074ee152687b0bc763') in 0.037075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/planksHalf.obj
+  artifactKey: Guid(f12f8ccb3e719a44ba2b5ce236d49ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/planksHalf.obj using Guid(f12f8ccb3e719a44ba2b5ce236d49ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e48254bdcd4597f9f7e4e24d61137020') in 0.038181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/fountainCenter.obj
+  artifactKey: Guid(a7bed862d6ec5f24eb0a2ee77bf4f7df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/fountainCenter.obj using Guid(a7bed862d6ec5f24eb0a2ee77bf4f7df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf00bf0762e36ed16c0d970f50e31825') in 0.067059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodDoorwaySquare.obj
+  artifactKey: Guid(6727d1e12f793da449424afa96daf6c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodDoorwaySquare.obj using Guid(6727d1e12f793da449424afa96daf6c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d46003c87d7c59926a34abffa8bc35a') in 0.068774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWindowSmall.obj
+  artifactKey: Guid(9f5ba21d67df1504ea62facdf923165c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWindowSmall.obj using Guid(9f5ba21d67df1504ea62facdf923165c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72460e3cef06477b4ded3298d10aa50f') in 0.113791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallHalf.obj
+  artifactKey: Guid(5a450e78da68c1040b9f9f72bb96ecdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallHalf.obj using Guid(5a450e78da68c1040b9f9f72bb96ecdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bdb47c8eace7412bfb1ac9710fbf0d07') in 0.077440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/road.obj
+  artifactKey: Guid(ec5a3c5b4ddad1b4c921df245972c2bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/road.obj using Guid(ec5a3c5b4ddad1b4c921df245972c2bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b936d549ee0ef174d92250f02cb2ac5') in 0.072828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/hedgeCurved.obj
+  artifactKey: Guid(81f22e2422e691947be9bb76db416aa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/hedgeCurved.obj using Guid(81f22e2422e691947be9bb76db416aa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'efe8ca3e7e518303b8a9e38cbbf961bc') in 0.053313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Prefabs/BuildingBlocks/RedRoof.prefab
+  artifactKey: Guid(52629463b6271fe46b5a5eeebe8294e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/BuildingBlocks/RedRoof.prefab using Guid(52629463b6271fe46b5a5eeebe8294e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '243a639f403aeba0e885d423ca71206e') in 0.033029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/planks.obj
+  artifactKey: Guid(8cbf393e1e2ffab43964fcd9d2f54474) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/planks.obj using Guid(8cbf393e1e2ffab43964fcd9d2f54474) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09cdba8918f4aee9e00276dadd30b73b') in 0.065808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/rockLarge.obj
+  artifactKey: Guid(afa874fd66a6b9240a4809bdc72709df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/rockLarge.obj using Guid(afa874fd66a6b9240a4809bdc72709df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d74c49d4fe582505aede88561c2bb0e') in 0.041841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallBlockHalf.obj
+  artifactKey: Guid(49baf8baac190724292d1625ee06dba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallBlockHalf.obj using Guid(49baf8baac190724292d1625ee06dba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef4d1e9c79511622093252f2fed6c3a0') in 0.045873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/GeneralScripts/GridCity.cs
+  artifactKey: Guid(d4a3bb68da96a0b46b33ef8e99bb0ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/GeneralScripts/GridCity.cs using Guid(d4a3bb68da96a0b46b33ef8e99bb0ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '486427e017bf5b5453619418b74ea068') in 0.070363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Substances/ProcArt-Brick-Wall-WoD-MMO_graph_0/graph_0.asset
+  artifactKey: Guid(ebbe8bb155a42a443ae6e9ec27a11f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Substances/ProcArt-Brick-Wall-WoD-MMO_graph_0/graph_0.asset using Guid(ebbe8bb155a42a443ae6e9ec27a11f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '477189e282f48e44d48ca4b87dd24b77') in 1.600563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Substances/ProcArt-Brick-Wall-WoD-MMO_graph_0/ProcArt-Brick-Wall-WoD-MMO_graph_0_material.mat
+  artifactKey: Guid(930f94deb4d0f8d42973f456fc3d7ec6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Substances/ProcArt-Brick-Wall-WoD-MMO_graph_0/ProcArt-Brick-Wall-WoD-MMO_graph_0_material.mat using Guid(930f94deb4d0f8d42973f456fc3d7ec6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2a33a848947bcbcb9739dbfb5b83275') in 0.182836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodArchTopDetail.obj
+  artifactKey: Guid(59908c0433389aa48ae1852303692d92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodArchTopDetail.obj using Guid(59908c0433389aa48ae1852303692d92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc10dabe6f8e33dbc8000727be33c292') in 0.055601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallDoorwayBase.obj
+  artifactKey: Guid(475e76b5ca687b04f876d7026d87df41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallDoorwayBase.obj using Guid(475e76b5ca687b04f876d7026d87df41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b9d5745d3bee80c3def42c58c405c38') in 0.144335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodRounded.obj
+  artifactKey: Guid(7218deb75382e4144a02f73399e9d727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodRounded.obj using Guid(7218deb75382e4144a02f73399e9d727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e12407c30442b641f81bb1e5c2a2c5b6') in 0.072576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/fence.obj
+  artifactKey: Guid(4789e925ed58f964c9b2d76c286da3da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/fence.obj using Guid(4789e925ed58f964c9b2d76c286da3da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3550eb534bc63508be451bf27821f418') in 0.061462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/roofHighCorner.obj
+  artifactKey: Guid(f3003d963d8e4384bab6867527ecdfe9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/roofHighCorner.obj using Guid(f3003d963d8e4384bab6867527ecdfe9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df4790d0b2b925beff13e55b89c772c4') in 0.018839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/watermill.obj
+  artifactKey: Guid(793417384f037084895cc46c8b2dc94e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/watermill.obj using Guid(793417384f037084895cc46c8b2dc94e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a450339de7c2ae9fcedfadb1e2a376a2') in 0.167877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallDoorwaySquare.obj
+  artifactKey: Guid(be8bb96213e36f741bb640b5ad8726a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallDoorwaySquare.obj using Guid(be8bb96213e36f741bb640b5ad8726a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69b95a474e27b9d883fd9d7622da4198') in 0.042219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/fantasytown.mtl
+  artifactKey: Guid(30581399f2c49c140b2ecffd572c1915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/fantasytown.mtl using Guid(30581399f2c49c140b2ecffd572c1915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dce5e6664f66ea82fb7b4a12a6085603') in 0.089168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Assets/S_3DHeart_18_N_nudged.png
+  artifactKey: Guid(2aa042885e232cc44a033f24979e8def) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Assets/S_3DHeart_18_N_nudged.png using Guid(2aa042885e232cc44a033f24979e8def) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a3b70901d2d515a66fa82683d3e1e70') in 0.146896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Assets/Logo_16.png
+  artifactKey: Guid(f582f763e5df3c241b43ca4f4eac7f4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Assets/Logo_16.png using Guid(f582f763e5df3c241b43ca4f4eac7f4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '630aa5b1aa8bad305adb92adc835886d') in 0.085662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/libsbsario.dylib
+  artifactKey: Guid(e913fe577a00848c58367b3e775b8a2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/libsbsario.dylib using Guid(e913fe577a00848c58367b3e775b8a2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '91e182f5a483c03c99208ef2018b4564') in 0.057612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/SubstanceGraphSOEditor.cs
+  artifactKey: Guid(94692ae502378e0469eba20cb87193c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/SubstanceGraphSOEditor.cs using Guid(94692ae502378e0469eba20cb87193c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d0b0d9ce2361fbbc402a30294dd43dc') in 0.044706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodSide.obj
+  artifactKey: Guid(f70699b89230f3b48a9a65c3b58c9170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodSide.obj using Guid(f70699b89230f3b48a9a65c3b58c9170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '895d985eb8019915b9d822ede3c1671f') in 0.028269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/roofGableEnd.obj
+  artifactKey: Guid(ac7f6e76d91863540a1453432a467cf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/roofGableEnd.obj using Guid(ac7f6e76d91863540a1453432a467cf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77dbb47acc06b88a0e696ba7a87f9b74') in 0.082133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/roofHigh.obj
+  artifactKey: Guid(e690a6b4d2de04949a7de97c6149e44d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/roofHigh.obj using Guid(e690a6b4d2de04949a7de97c6149e44d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dfcd058a6339193c4ddef6a6243bde86') in 0.055841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/libsubstance_mtl_blend.dylib
+  artifactKey: Guid(576b1a9b12cf24674bcf8e9a334f688c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/libsubstance_mtl_blend.dylib using Guid(576b1a9b12cf24674bcf8e9a334f688c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1de5f1283778bd56ccce0815bd4b4e9d') in 0.041712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/libsubstance_ogl3_blend.so.9
+  artifactKey: Guid(5e198892ea8bd9740a32540c4438f4e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/libsubstance_ogl3_blend.so.9 using Guid(5e198892ea8bd9740a32540c4438f4e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '749a93bd661bed4ff51f40a814fdd37e') in 0.036468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/Materials/water.mat
+  artifactKey: Guid(8a3d4fea27cc8674286cd203c298ef1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/Materials/water.mat using Guid(8a3d4fea27cc8674286cd203c298ef1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f05ac6f32b6275a2a247469ee126cb71') in 0.035104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/lantern.obj
+  artifactKey: Guid(40090d729e2f4e54982db1ff245d8f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/lantern.obj using Guid(40090d729e2f4e54982db1ff245d8f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36a760d5c2dc4156c3e88666b5381cb1') in 0.061010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/BuildingBlocks/Stock2.prefab
+  artifactKey: Guid(5e149f377887ae0418f31147accf2925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/BuildingBlocks/Stock2.prefab using Guid(5e149f377887ae0418f31147accf2925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b92882fe48fe117a63058e9c8999e61') in 0.015545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/substance_sse2_blend.dll
+  artifactKey: Guid(9a1f1618673081b4888cd4178c7ef44a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/substance_sse2_blend.dll using Guid(9a1f1618673081b4888cd4178c7ef44a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a45786ff1f7b3bc855cf47a9b8b4c8d') in 0.038432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Assets/Logo_64.png
+  artifactKey: Guid(729db32ebfbf92e49aec2d8b254e28e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Assets/Logo_64.png using Guid(729db32ebfbf92e49aec2d8b254e28e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a55047d61fcca81ced6d5a80369d36fb') in 0.080096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallRounded.obj
+  artifactKey: Guid(5e95b28f07a62474ab0e39b4251ecb63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallRounded.obj using Guid(5e95b28f07a62474ab0e39b4251ecb63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17214f894e67552f259625afd467ece3') in 0.057880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/treeHigh.obj
+  artifactKey: Guid(e3811f7cf8b55ef4e82e6a67634ad474) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/treeHigh.obj using Guid(e3811f7cf8b55ef4e82e6a67634ad474) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d0850022d02d242fc10d5345fece3ea') in 0.046349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/Project Settings Editor/Extensions.cs
+  artifactKey: Guid(bd5f8823e57c3e04fbc09267e76055db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/Project Settings Editor/Extensions.cs using Guid(bd5f8823e57c3e04fbc09267e76055db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14376348630b5aa9691776e3baa96f87') in 0.024586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/Importer/SubstanceImporter.cs
+  artifactKey: Guid(dda12f74ff9116a42b23482252b2c482) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/Importer/SubstanceImporter.cs using Guid(dda12f74ff9116a42b23482252b2c482) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bcc2f9f15d3eb7e2b4154eb8e0f5e163') in 0.038580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/Project Settings Editor/SubstanceEditorSettingsProvider.cs
+  artifactKey: Guid(4e36266595fde1a47b3add3f8a295cfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/Project Settings Editor/SubstanceEditorSettingsProvider.cs using Guid(4e36266595fde1a47b3add3f8a295cfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '603ad893f47d0d7567c5b05f7669ff24') in 0.040165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/Importer/SubstanceImporterEditor.cs
+  artifactKey: Guid(87dac30333bc79345bec7a3b39edcc45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/Importer/SubstanceImporterEditor.cs using Guid(87dac30333bc79345bec7a3b39edcc45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e0279b4d8c85d0f437f7a37e4727a7c') in 0.099488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(4eb8963aa08bda64a905dcdfdd04b96d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(4eb8963aa08bda64a905dcdfdd04b96d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f443198b37a8670a75c2fe328be3ef8a') in 0.068444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawerInt.cs
+  artifactKey: Guid(91b2fc4c484fa3f48804e6352c3d51d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawerInt.cs using Guid(91b2fc4c484fa3f48804e6352c3d51d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8b4be7c52f34189879bc5f747868903') in 0.032886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawerFloat3.cs
+  artifactKey: Guid(dd7292cd00c740040b07a24e3f49ac8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawerFloat3.cs using Guid(dd7292cd00c740040b07a24e3f49ac8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '444b284f11914e9e3435045803bd2791') in 0.042646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Assets/Logo_128.png
+  artifactKey: Guid(30be34334090e2b478db7867a8d81934) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Assets/Logo_128.png using Guid(30be34334090e2b478db7867a8d81934) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21236e4bab980579cd2fde154cfa6e3f') in 0.087714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawerString.cs
+  artifactKey: Guid(1ac347008a541b247a481fafa2196b14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawerString.cs using Guid(1ac347008a541b247a481fafa2196b14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af52b54e86c53432c6050d83934e4592') in 0.154573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawerTexture.cs
+  artifactKey: Guid(07aca6dfe5b18924ba359d2f53a2ac34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawerTexture.cs using Guid(07aca6dfe5b18924ba359d2f53a2ac34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a87b4421223c6f516041fbe16235be1f') in 0.091535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallDoorwayRound.obj
+  artifactKey: Guid(878d7f23d69aa4545a723f41f6d5707e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallDoorwayRound.obj using Guid(878d7f23d69aa4545a723f41f6d5707e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2814634451b80a72a9fac6f43d05e323') in 0.050311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodDoorwayRound.obj
+  artifactKey: Guid(e98ccde9b97cf5449a0e2de435ad61db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodDoorwayRound.obj using Guid(e98ccde9b97cf5449a0e2de435ad61db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9a4c5dcff1b693ac7df09efdc02b200') in 0.067287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/fountainSquareDetail.obj
+  artifactKey: Guid(10f9bcf6482151343bcbb32562fcb505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/fountainSquareDetail.obj using Guid(10f9bcf6482151343bcbb32562fcb505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a94c0605638336434edf0384844bf60b') in 0.160909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallDetailDiagonal.obj
+  artifactKey: Guid(74f53374937e42a4daad3c48cf4054b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallDetailDiagonal.obj using Guid(74f53374937e42a4daad3c48cf4054b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b34917c8db7b36a000e9deef9c71d0b1') in 0.077494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/Materials/wood.mat
+  artifactKey: Guid(0356610d6f731b24ab2e153725809a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/Materials/wood.mat using Guid(0356610d6f731b24ab2e153725809a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a94a472834c34cf5a42941ec253ac6c7') in 0.052445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/iOS/libsubstance_linker.a
+  artifactKey: Guid(29d7bb04e5a0eb74cb9fbd606b5b6d68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/iOS/libsubstance_linker.a using Guid(29d7bb04e5a0eb74cb9fbd606b5b6d68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34a8d5dcfdc6268cc50a0ccf676e4b9e') in 0.050128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/iOS/libpfxlinkercommon.a
+  artifactKey: Guid(74ea479585b771c48a04186006069101) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/iOS/libpfxlinkercommon.a using Guid(74ea479585b771c48a04186006069101) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9620203a1bc795e3390569368b5e2dd9') in 0.019432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset
+  artifactKey: Guid(df275943787b78b468419fe94efddb53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset using Guid(df275943787b78b468419fe94efddb53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '620e5443122fb4e34ec386cbdcc67047') in 0.031349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/roofCornerRound.obj
+  artifactKey: Guid(5caacd38ef920084083485b8bf94a03c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/roofCornerRound.obj using Guid(5caacd38ef920084083485b8bf94a03c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fc38b0250afcfcd7e31016f55b87d46') in 0.105863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000674 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/DataInternalNumeric.cs
+  artifactKey: Guid(81de55a495f8b1c46be3fa485ad32aa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/DataInternalNumeric.cs using Guid(81de55a495f8b1c46be3fa485ad32aa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd2693537ed659fb8acc22c47c3a5bfc') in 0.049265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/NativeDataImage.cs
+  artifactKey: Guid(df487c43ab54e7e4eaaf4c48d091656b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/NativeDataImage.cs using Guid(df487c43ab54e7e4eaaf4c48d091656b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '060feb573c768b455309f6ca44d134bf') in 0.041879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/cart.obj
+  artifactKey: Guid(34977f2927ab8db43868136b2bcd60b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/cart.obj using Guid(34977f2927ab8db43868136b2bcd60b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e89e31599fcbc89ac80d39dc746a012a') in 0.046766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/stairsStoneHandrail.obj
+  artifactKey: Guid(a2fd4c06a9cc2db4f82e5e4208c62ba2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/stairsStoneHandrail.obj using Guid(a2fd4c06a9cc2db4f82e5e4208c62ba2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06f9ef616e884a0a3a43b7074f69108e') in 0.145629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/NativePreset.cs
+  artifactKey: Guid(16bd92bd193ee9044b52b3607ef613c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/NativePreset.cs using Guid(16bd92bd193ee9044b52b3607ef613c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f44f651fd103ea98c5c7fbfff8b316d') in 0.039186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/nativeinputdesc.cs
+  artifactKey: Guid(66f8f0c2765100b4ea04428bb0b07a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/nativeinputdesc.cs using Guid(66f8f0c2765100b4ea04428bb0b07a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd71fc468b70dbd3ad3c3a3ddd7775803') in 0.035846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/NativeInputVisibility.cs
+  artifactKey: Guid(074a7ebe4a960264d9ade0ce2e8404b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/NativeInputVisibility.cs using Guid(074a7ebe4a960264d9ade0ce2e8404b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d57f7a1aa9e39512cbc7b966a4b3c23') in 0.055630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/Utilities/SubstanceBuildUtils.cs
+  artifactKey: Guid(18d63636c53acdc4680dd008426e63f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/Utilities/SubstanceBuildUtils.cs using Guid(18d63636c53acdc4680dd008426e63f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37824cea41116b6406f6dd4021c8e014') in 0.016282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/roofGableTop.obj
+  artifactKey: Guid(e53282fe588b6e14eb7966634d0576e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/roofGableTop.obj using Guid(e53282fe588b6e14eb7966634d0576e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13ecc2f92f1cf12956df79f2405803e6') in 0.036027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Utilities/PlatformUtils.cs
+  artifactKey: Guid(82fc31b1374aa6240bac67b4a6b6ac33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Utilities/PlatformUtils.cs using Guid(82fc31b1374aa6240bac67b4a6b6ac33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'becfab5f3b0975788c142c2cf1fdd18d') in 0.041965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Utilities/MaterialUtils.cs
+  artifactKey: Guid(827772ab50908334dbe1a1d6330de2db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Utilities/MaterialUtils.cs using Guid(827772ab50908334dbe1a1d6330de2db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0cfc2816c089b5fb2dae3f180804cb8') in 0.054756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/Utilities/EditorTools.cs
+  artifactKey: Guid(9501269c4defb994083f07343a9de616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/Utilities/EditorTools.cs using Guid(9501269c4defb994083f07343a9de616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e284868ad1ce0f71aebbd08e7cc39b39') in 0.028580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/roofHighWindow.obj
+  artifactKey: Guid(ce8e4c89568d12b45af68eb0a4a96dbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/roofHighWindow.obj using Guid(ce8e4c89568d12b45af68eb0a4a96dbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dfa7860fe401ce011d5eef2598df0e77') in 0.077738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/libsubstance_linker.9.dylib
+  artifactKey: Guid(d3b907e16599a430e9b2ffdcc3632e62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/libsubstance_linker.9.dylib using Guid(d3b907e16599a430e9b2ffdcc3632e62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3692552f7d4a8e14ec3f4e55f4cbe192') in 0.030017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/libsbsario.so
+  artifactKey: Guid(9b40b6fe75dcdffaf9b0b0db569525bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/libsbsario.so using Guid(9b40b6fe75dcdffaf9b0b0db569525bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9caebb134f2c566a59af7d7709f812b6') in 0.023141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Utilities/Version.cs
+  artifactKey: Guid(62d136a2c8fa01b4eb83bb3320de89af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Utilities/Version.cs using Guid(62d136a2c8fa01b4eb83bb3320de89af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ddb007ac15d862369884da0d7de4778a') in 0.031637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/Enums/ImageFormat.cs
+  artifactKey: Guid(72a712966a00a97428f8275064ad75fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/Enums/ImageFormat.cs using Guid(72a712966a00a97428f8275064ad75fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c26cb82a84c60c75af32f42b44cf98fd') in 0.036556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Enums/SubstanceWidgetType.cs
+  artifactKey: Guid(73d408e59cbb3044e807be21f8dce834) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Enums/SubstanceWidgetType.cs using Guid(73d408e59cbb3044e807be21f8dce834) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b59471e56d7b680e3e0bb756850f325e') in 0.014229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/Enums/nativevaluetype.cs
+  artifactKey: Guid(5ba3c765d94cc4a479c0a6df314289c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/Enums/nativevaluetype.cs using Guid(5ba3c765d94cc4a479c0a6df314289c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a31919129f63589b47f97b772462dce9') in 0.125330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Descriptions/ISubstanceInputDescNumerical.cs
+  artifactKey: Guid(c6c5115cae5711a46a6d74d20391cfb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Descriptions/ISubstanceInputDescNumerical.cs using Guid(c6c5115cae5711a46a6d74d20391cfb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed877ab332c63778ce105384aa1a7458') in 0.067637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Outputs/SubstanceOutputDescription.cs
+  artifactKey: Guid(06fa5ea573078b642bf69b2798e26884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Outputs/SubstanceOutputDescription.cs using Guid(06fa5ea573078b642bf69b2798e26884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '436a13ea739737add69a38993584049b') in 0.020795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/ISubstanceInput.cs
+  artifactKey: Guid(82a826b2d9a131a4598c52e033409dae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/ISubstanceInput.cs using Guid(82a826b2d9a131a4598c52e033409dae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed81df1879ef26b1e972485488c39380') in 0.044142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/substance_d3d11pc_blend.dll
+  artifactKey: Guid(4d93358a4514fe54981d37196b1bb9c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/substance_d3d11pc_blend.dll using Guid(4d93358a4514fe54981d37196b1bb9c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3fe46172b7e329f1b2f45f81a0738097') in 0.025459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Descriptions/SubstanceInputDescNumericalInt3.cs
+  artifactKey: Guid(36e74c56f6c8da5478de4fa824d907ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Descriptions/SubstanceInputDescNumericalInt3.cs using Guid(36e74c56f6c8da5478de4fa824d907ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1985af237cdb47b077fc1cc81bc16509') in 0.040466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Descriptions/SubstanceInputDescNumericalInt2.cs
+  artifactKey: Guid(f227c26b9ad4bc144b20f140676c3d39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Descriptions/SubstanceInputDescNumericalInt2.cs using Guid(f227c26b9ad4bc144b20f140676c3d39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81378a674d432d0e5b076144fb734805') in 0.022996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Engine.cs
+  artifactKey: Guid(2e9d31db8a6b5b544b6a12387f39d7e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Engine.cs using Guid(2e9d31db8a6b5b544b6a12387f39d7e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fac3674865741136e24ba12b64d4434') in 0.016849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/Materials/roofLight.mat
+  artifactKey: Guid(357b0b2ea44902a4f8161fd3987bc545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/Materials/roofLight.mat using Guid(357b0b2ea44902a4f8161fd3987bc545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c0f59e76d4c9ba7a5bc40c38504c52f') in 0.039412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputInt2.cs
+  artifactKey: Guid(1edf95e7b56e87b43bf900d164c150b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputInt2.cs using Guid(1edf95e7b56e87b43bf900d164c150b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5959428fdcb0d89c9c27a82d0c314550') in 0.017159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputFont.cs
+  artifactKey: Guid(b54963e3fd7509d47a7807204ab5ad0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputFont.cs using Guid(b54963e3fd7509d47a7807204ab5ad0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df079c31f74a2cac50fd882e692dc635') in 0.021613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/SubstanceInputFactory.cs
+  artifactKey: Guid(bb4c90b1beaaf634092abf47829fe011) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/SubstanceInputFactory.cs using Guid(bb4c90b1beaaf634092abf47829fe011) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46653ad3ecd5c8d977f084885e3c746d') in 0.097973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/Materials/roof.mat
+  artifactKey: Guid(960b501023caf0a4bb44c1fcf4818c56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/Materials/roof.mat using Guid(960b501023caf0a4bb44c1fcf4818c56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10f89d90110993582064b52375fad9da') in 0.034040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawer.cs
+  artifactKey: Guid(291115c592a8ea648812908d840ceb8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawer.cs using Guid(291115c592a8ea648812908d840ceb8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6d21791d2add28bfbd3b9310f1a3428') in 0.043330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Enums/ShuffleIndex.cs
+  artifactKey: Guid(19b7748e2fed01745849ab203806a4da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Enums/ShuffleIndex.cs using Guid(19b7748e2fed01745849ab203806a4da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2867bb3b5ee0b749752389f3d410c60a') in 0.025367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputInt4.cs
+  artifactKey: Guid(bf61790262550134a96f236697c83fe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputInt4.cs using Guid(bf61790262550134a96f236697c83fe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb365485995426f3a49c2309b07bfbde') in 0.021990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/GUIContent/SubstanceNumericalInputGUIContent.cs
+  artifactKey: Guid(3ee2316ba345eed46837d35e55cfa832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/GUIContent/SubstanceNumericalInputGUIContent.cs using Guid(3ee2316ba345eed46837d35e55cfa832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '429522405393ffe29dc3d0792dca9916') in 0.023301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/Materials/stoneDark.mat
+  artifactKey: Guid(43dccd1a015b0e5428e8a72c501cfcbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/Materials/stoneDark.mat using Guid(43dccd1a015b0e5428e8a72c501cfcbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1813fe98b47bcfc66394daa7380e154') in 0.133713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Utilities/RenderingUtils.cs
+  artifactKey: Guid(5abbd1d56696db6478aa75a922351727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Utilities/RenderingUtils.cs using Guid(5abbd1d56696db6478aa75a922351727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1f23094422e00e49ca861b2f938d3c4') in 0.021453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallCornerDiagonal.obj
+  artifactKey: Guid(6faee39e8f23cf44bafe1ee995c7920c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallCornerDiagonal.obj using Guid(6faee39e8f23cf44bafe1ee995c7920c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c809fee52aaad6b293c85662071e91cf') in 0.040935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputFloat2.cs
+  artifactKey: Guid(d0c4e3cee5c04494089d8b2b921a09a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputFloat2.cs using Guid(d0c4e3cee5c04494089d8b2b921a09a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3dad8ced0dd05c58fec4864eafe34bdf') in 0.041152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/NativeOutputFormat.cs
+  artifactKey: Guid(80e96a42636b99049accabcee0d069dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/NativeOutputFormat.cs using Guid(80e96a42636b99049accabcee0d069dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ccd851ac699410a4e370439c008d704') in 0.061393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawerFloat.cs
+  artifactKey: Guid(033dbc14304ac024da91e3803dfab82f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawerFloat.cs using Guid(033dbc14304ac024da91e3803dfab82f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2cd50de4a046792197550d70dbfe4a84') in 0.022183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/Extensions/PhysicalSizeExtension.cs
+  artifactKey: Guid(459462fea64803a4b8c2e0fe9979fba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/Extensions/PhysicalSizeExtension.cs using Guid(459462fea64803a4b8c2e0fe9979fba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1eeda0ac9ec090521143cceb5bb00673') in 0.050554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/Project Settings Editor/SubstanceEditorSettingsSO.cs
+  artifactKey: Guid(715e7c131b0ebdd48b77c2b2741d1dae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/Project Settings Editor/SubstanceEditorSettingsSO.cs using Guid(715e7c131b0ebdd48b77c2b2741d1dae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3cd60facb91cb993a799a968ed31d01') in 0.067849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallDoorwaySquareWideCurved.obj
+  artifactKey: Guid(ecf7798e39f8b344e9739f878c52bfc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallDoorwaySquareWideCurved.obj using Guid(ecf7798e39f8b344e9739f878c52bfc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75085b9753a11cf4d1ea7368239e12f4') in 0.131954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/Utilities/SubstanceEditorTools.cs
+  artifactKey: Guid(ca72419b4beaef243b962e3f3a94f26a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/Utilities/SubstanceEditorTools.cs using Guid(ca72419b4beaef243b962e3f3a94f26a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9aea949173ddb3a96ba854bb8bdef1c') in 0.027633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/pillarStone.obj
+  artifactKey: Guid(c2cf3e2c0fc9b0245b2b481ea4a6b898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/pillarStone.obj using Guid(c2cf3e2c0fc9b0245b2b481ea4a6b898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce6fee399187aea888fbc6b7d4dfcd15') in 0.056390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/Arm64/libsbsario.so
+  artifactKey: Guid(f292327062a6810428e455b714f2f512) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/Arm64/libsbsario.so using Guid(f292327062a6810428e455b714f2f512) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b21a2cc7a676ce5d37b4ba25299d47e') in 0.044640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/iOS/libalg.a
+  artifactKey: Guid(e0a6e848109591341ba75dea6bf29f90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/iOS/libalg.a using Guid(e0a6e848109591341ba75dea6bf29f90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72c167d6f1e0c151ff03bdab11c69004') in 0.036888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Scripts/ModularMeshTools/BuildTrigger.cs
+  artifactKey: Guid(9c601806f2ae6db4b994fc92779c19fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/ModularMeshTools/BuildTrigger.cs using Guid(9c601806f2ae6db4b994fc92779c19fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5a0567c1c1f1261b8c34b3442af0047') in 0.054420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/libsubstance_linker.so
+  artifactKey: Guid(b9441c23298894c028d4e1f5263e719e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/libsubstance_linker.so using Guid(b9441c23298894c028d4e1f5263e719e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0659a98df184135529b3f336957721f0') in 0.040524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputInt3.cs
+  artifactKey: Guid(920e7de597d6a3744b255c5fa47734d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputInt3.cs using Guid(920e7de597d6a3744b255c5fa47734d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd8c22ee80bd2d44f7298b1c8cc62b0f') in 0.042205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/nativegraph.cs
+  artifactKey: Guid(34e809fb674bca84f86309e85e7595fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/nativegraph.cs using Guid(34e809fb674bca84f86309e85e7595fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0a1976678999a6782ed6c9ef2a90808') in 0.043377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodBroken.obj
+  artifactKey: Guid(27058fd82af577a4aaa646588b828426) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodBroken.obj using Guid(27058fd82af577a4aaa646588b828426) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c85eb44557118dec2f8686983bc0b128') in 0.116233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodCornerDiagonalHalf.obj
+  artifactKey: Guid(4fd4a167a1f378842b2d89851dd7b5a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodCornerDiagonalHalf.obj using Guid(4fd4a167a1f378842b2d89851dd7b5a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4751ce02202f3a264828778268dccc5') in 0.066898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/treeCrooked.obj
+  artifactKey: Guid(47b0971bbacfce04c8b7d6b7997e82bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/treeCrooked.obj using Guid(47b0971bbacfce04c8b7d6b7997e82bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9547e7fdc53f6ce95704e67536f5c00e') in 0.089138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputInt.cs
+  artifactKey: Guid(1601ac9007c2d7a40a34b1bb071fd814) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputInt.cs using Guid(1601ac9007c2d7a40a34b1bb071fd814) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9720a0c9277335f9f0a53511f1ae5c6b') in 0.049435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/roofHighGableTop.obj
+  artifactKey: Guid(ae4b3f22e9ea8134085eca92377efe3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/roofHighGableTop.obj using Guid(ae4b3f22e9ea8134085eca92377efe3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5c5eefad2b7aeaff290c82a7fbf1acc') in 0.071088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodWindowShutters.obj
+  artifactKey: Guid(0dfe00013000a524e91c2fc61c13a4c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodWindowShutters.obj using Guid(0dfe00013000a524e91c2fc61c13a4c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6eed66edb6e71ab6c703b6a1ff77411') in 0.064544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Substances/ProcArt-Brick-Wall-WoD-MMO_graph_0/ProcArt-Brick-Wall-WoD-MMO_basecolor.tga
+  artifactKey: Guid(20fec0036a4acec4782758360ba02891) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Substances/ProcArt-Brick-Wall-WoD-MMO_graph_0/ProcArt-Brick-Wall-WoD-MMO_basecolor.tga using Guid(20fec0036a4acec4782758360ba02891) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0a648f531869735eafb1f2604171c32') in 0.062542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/NativeThumbnail.cs
+  artifactKey: Guid(219b8713c6f86934ba2bb9d9d3cb18f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/NativeThumbnail.cs using Guid(219b8713c6f86934ba2bb9d9d3cb18f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0a25690fed4816f54910981b805582f') in 0.021184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/Utilities/AssetCreationUtils.cs
+  artifactKey: Guid(dc9df0d9c52231245aa194e418a9c115) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/Utilities/AssetCreationUtils.cs using Guid(dc9df0d9c52231245aa194e418a9c115) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28788936ac46f549f8063726ce107af1') in 0.029193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWindowShutters.obj
+  artifactKey: Guid(7cb66059224c98c4e83ef9775768dbe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWindowShutters.obj using Guid(7cb66059224c98c4e83ef9775768dbe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aaee4fbd2a22057f89e2ebebeedeaecd') in 0.061829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/pillarWood.obj
+  artifactKey: Guid(26a9bdbac5e57b94a9ced9d46eaa6523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/pillarWood.obj using Guid(26a9bdbac5e57b94a9ced9d46eaa6523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25533dcaa96b9f74b2fc7b29dc068ed4') in 0.065771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(b2b202635921167438b0df2480fa90aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset using Guid(b2b202635921167438b0df2480fa90aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '459fe83aded191547d99a6b8c60a7cd6') in 0.060150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodBlockHalf.obj
+  artifactKey: Guid(e8dc7a0b6895a61478f8718fffaee14c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodBlockHalf.obj using Guid(e8dc7a0b6895a61478f8718fffaee14c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2270040d27f98f598f2f8b81ff6c279c') in 0.049682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/Enums/ErrorCode.cs
+  artifactKey: Guid(7b566521bda0b2c47a8cc502717e65b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/MarshalStructs/Enums/ErrorCode.cs using Guid(7b566521bda0b2c47a8cc502717e65b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '501148daf7ddbafd088fa815d8f75382') in 0.171420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallCornerEdge.obj
+  artifactKey: Guid(d63d22934df185649a297fd9c49570c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallCornerEdge.obj using Guid(d63d22934df185649a297fd9c49570c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '40496d5ae7a2e7312a21e3371da6dc8f') in 0.065907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWindowStone.obj
+  artifactKey: Guid(b8bab90dfba28ba4cbb15b7af5e85895) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWindowStone.obj using Guid(b8bab90dfba28ba4cbb15b7af5e85895) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3320940093a20014f9fa8ce7c823851') in 0.079153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/Materials/hay.mat
+  artifactKey: Guid(d32ced279f912674d8a2faa35aef6ad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/Materials/hay.mat using Guid(d32ced279f912674d8a2faa35aef6ad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd70186c06712643d8044d2a59a9f6c64') in 0.074103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWindowGlass.obj
+  artifactKey: Guid(31729512350dcdf4e8c11188e066c8fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWindowGlass.obj using Guid(31729512350dcdf4e8c11188e066c8fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b9d0e8917bffb192375747851637300') in 0.046256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Presets/PresetInfo.cs
+  artifactKey: Guid(66722c561a792429fa9659509f43aeb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Presets/PresetInfo.cs using Guid(66722c561a792429fa9659509f43aeb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '290f2a661d66936e89e0d0a30d4d5532') in 0.033669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodBlock.obj
+  artifactKey: Guid(e06a1d3fca86ab84a9745645b4e5d4b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodBlock.obj using Guid(e06a1d3fca86ab84a9745645b4e5d4b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd9e2c1fcdb8f8a77b39f5d102e45b4c0') in 0.072303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Descriptions/SubstanceInputDescNumericalInt4.cs
+  artifactKey: Guid(7ba763c16c13298419198087a5b6db66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Descriptions/SubstanceInputDescNumericalInt4.cs using Guid(7ba763c16c13298419198087a5b6db66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8b5d86ca0a43ac8d3eddfbed6c879a8') in 0.019586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputFloat4.cs
+  artifactKey: Guid(38a7b8b2e997dce43af21e967aabeb90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Scripts/Unity Objects/Inputs/Values/SubstanceInputFloat4.cs using Guid(38a7b8b2e997dce43af21e967aabeb90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b55604250f8919e49f1e52d5fd63f843') in 0.037219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Runtime/Plugins/iOS/libsbsario.a
+  artifactKey: Guid(d905326978f74624f994ee7bb628ce0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Runtime/Plugins/iOS/libsbsario.a using Guid(d905326978f74624f994ee7bb628ce0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c39f55a7f517961d34058323a7668fb') in 0.034611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/fountainRound.obj
+  artifactKey: Guid(d90dbd043eb800e4a92d885e056070eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/fountainRound.obj using Guid(d90dbd043eb800e4a92d885e056070eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a293f67cd8a33447b1ca1cfe2920b2b6') in 0.050616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWood.obj
+  artifactKey: Guid(6200df9d6339e864db615a682bfcbe9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWood.obj using Guid(6200df9d6339e864db615a682bfcbe9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa65088ebd1eb3a68008ba6537405d5d') in 0.079290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/roofHighCornerRound.obj
+  artifactKey: Guid(e4fc7f20f72d64940b6943422128447e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/roofHighCornerRound.obj using Guid(e4fc7f20f72d64940b6943422128447e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c9e59f4cc8ea02043d754b3b4ff89da') in 0.102719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kenney Assets/FantasyTownProcessed/wallWoodArchTop.obj
+  artifactKey: Guid(1c3a47f6b01f1254697947cde05fcbea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney Assets/FantasyTownProcessed/wallWoodArchTop.obj using Guid(1c3a47f6b01f1254697947cde05fcbea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed044c517a0975f1958247d8fd87f331') in 0.056479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawerInt3.cs
+  artifactKey: Guid(7c99f44dae8ff5f4097e558c6f881451) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adobe/Substance3DForUnity/Editor/Scripts/PropertyDrawers/SubstanceInputDrawerInt3.cs using Guid(7c99f44dae8ff5f4097e558c6f881451) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4567fecde16f2479a3c5adec78651e45') in 0.040845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
